@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 400px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #add-btn{
+            background-color: rgb(16, 16, 227);
+            color: white;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        ol{
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>TODO LIST</h1>
+        <h3><div id="date-div"></div></h3>
+        <div>
+            <input id="TODO-input" placeholder="Enter your task">
+            <button id="add-btn">ADD</button>
+        </div>
+        <div>
+            <ol id="List-items">
+                
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
